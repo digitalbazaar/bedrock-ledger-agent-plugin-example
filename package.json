@@ -1,0 +1,37 @@
+{
+  "name": "bedrock-ledger-agent-plugin-example",
+  "version": "0.0.1-0",
+  "description": "An example bedrock-ledger-agent plugin.",
+  "main": "lib",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "peerDependencies": {
+    "bedrock": "^1.15.0",
+    "bedrock-express": "^2.1.0",
+    "bedrock-ledger-node": "^8.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalbazaar/bedrock-ledger-agent-plugin-example"
+  },
+  "keywords": [
+    "bedrock",
+    "ledger",
+    "agent",
+    "plugin"
+  ],
+  "author": {
+    "name": "Digital Bazaar, Inc.",
+    "email": "support@digitalbazaar.com",
+    "url": "https://digitalbazaar.com"
+  },
+  "bugs": {
+    "url": "https://github.com/digitalbazaar/bedrock-ledger-agent-plugin-example/issues"
+  },
+  "homepage": "https://github.com/digitalbazaar/bedrock-ledger-agent-plugin-example",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-digitalbazaar": "^2.0.0"
+  }
+}
