@@ -108,6 +108,7 @@ async function _setupGenesisNode() {
       genesis: true,
       public: true,
       owner: ledgerOwner.identity.id,
+      // specify one or more plugins here
       plugins: ['example-agent'],
     };
     const addAgent = promisify(brLedgerAgent.add);
